@@ -4,6 +4,25 @@
 ![Screenshot from 2021-06-21 14-38-55](https://user-images.githubusercontent.com/76798025/122712222-88fed580-d29e-11eb-9313-b602d8708968.png)
 
 
+## 데이터 구성
+```txt
+/data
+		/SIA
+				/multi
+						/gtFine
+									/train
+									/val
+						/leftImg8bit
+									/train
+									/val
+```
+
+gtFine : label<br>
+leftImg8bit : image
+
+
+
+
 ![Screenshot from 2021-06-21 14-39-06](https://user-images.githubusercontent.com/76798025/122712227-8ac89900-d29e-11eb-8bc5-6f7bc7ce197c.png)
 
 
