@@ -7,20 +7,23 @@
 ## 데이터 구성
 ```txt
 /data
-		/SIA
-				/multi
-						/gtFine
-									/train
-									/val
-						/leftImg8bit
-									/train
-									/val
+	/SIA
+		/multi
+			/gtFine
+				/train
+				/val
+			/leftImg8bit
+				/train
+				/val
 ```
 
 gtFine : label<br>
 leftImg8bit : image
 
-
+## multi train
+```bash
+python main_sia_3.py --model deeplabv3plus_mobilenet --separable_conv --dataset satellites_multi --enable_vis --vis_port 28333 --gpu_id 0  --lr 0.1  --crop_size 512 --batch_size 8 --output_stride 16 --data_root ./datasets/data/SIA/multi
+```
 
 
 ![Screenshot from 2021-06-21 14-39-06](https://user-images.githubusercontent.com/76798025/122712227-8ac89900-d29e-11eb-8bc5-6f7bc7ce197c.png)
