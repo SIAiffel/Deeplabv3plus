@@ -20,6 +20,11 @@
 gtFine : label<br>
 leftImg8bit : image
 
+## Requirements
+```bash
+pip install -r requirements.txt
+```
+
 ## Visdom
 
 ```bash
